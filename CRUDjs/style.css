@@ -1,0 +1,87 @@
+*{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    font-style: normal;     
+}
+body{
+    background-color: rgb(30, 0, 77);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-tasks{
+    width: 60%;
+    background-color: rgb(239, 239, 239);
+    margin-top: 70px;
+    border-radius: 5px;
+}
+.header{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(92, 52, 155);
+    color: #fff;
+    padding: 8px 0px;
+    margin-bottom: 10px;
+}
+.header h1{
+    display: inline;
+}
+.header button{
+    float: left;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-top: 5px;
+    
+}
+.container button{
+    border: none;
+    font-size: 20px;
+    box-shadow: 0px 3px 5px rgba(168, 168, 168, 0.38);
+}
+
+button.circular{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 0;
+    cursor: pointer;
+}
+
+.task{
+    display: flex;
+    font-size: 10px;
+    padding: 8px;
+    border-bottom: solid rgb(97, 97, 97) 1px;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: box-shadow 0.2s;
+    margin: 10px;
+    
+}
+.doneTask{
+    background-color: #90EE90;
+
+}
+.task:hover{
+    box-shadow: 0px 3px 15px rgba(97, 97, 97, 0.843);
+}
+.task-info{
+    width: 70%;
+    
+}
+.task-info span{
+    font-size: 15px;
+}
+
+.task-actions{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
